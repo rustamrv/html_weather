@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 900px;
+  border: 25px solid #2b81ac;
+  background: #39c;
+  justify-content: center;
+}
+
+ol,
+li {
+  list-style: none;
+}
+
+.container {
+  width: min(90%, 1200px);
+  margin-inline: auto;
+}
+
+.container h1 {
+  color: #fff;
+  font-family: "Lucida Sans Unicode";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 61px;
+}
+
+.main {
+  border: 2px solid #fff;
+  margin-top: 20px;
+  padding: 0;
+  font-size: 0;
+}
+
+.line li {
+  display: inline-block;
+
+  height: 150px;
+  margin: 0;
+  box-sizing: border-box;
+  vertical-align: top;
+  border: 1px solid #fff;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  background-color: #c24747;
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in-out;
+}
+.wi {
+  color: white;
+}
+
+.line h3,
+.line p {
+  padding-top: 10px; 
+  z-index: 1;
+}
+
+.line .lisbon {
+  background: #39c;
+}
+
+.line .paris {
+  background: #3cc;
+}
+
+.line .belgrade {
+  background: #969;
+}
+
+.line li.venice {
+  background: #c24747;
+}
+
+.line li.tel-avive {
+  background: #e2674a;
+}
+
+.line li.cair {
+  background: #fc6;
+}
+
+.line li.new-york {
+  background: #9c9;
+}
+
+.line li.delhi {
+  background: #699;
+}
+
+.line li.san {
+  background: #c69;
+}
+
+.line li.tokio {
+  background: #396;
+}
+
+.line li.sydney {
+  background: #669;
+}
+
+.line li:hover {
+  opacity: 1;
+}
+
+.line p {
+  font-size: 18px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.line {
+  text-align: center;
+}
+
+.line h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.width-25 {
+  width: 25%;
+}
+
+.width-100 {
+  width: 100%;
+}
+.inline-icon {
+  display: inline-block;
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.footer {
+  color: #fff;
+  font-family: "Lucida Sans Unicode";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 37px;
+}
