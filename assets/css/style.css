@@ -32,35 +32,32 @@ li {
 }
 
 .main {
-  border: 2px solid #fff;
+  background-color: #fff;
   margin-top: 20px;
-  padding: 0;
   font-size: 0;
+  padding: 1px;
+  margin-right: 1px;
 }
 
-.line li {
+.main li {
   display: inline-block;
-
   height: 150px;
-  margin: 0;
-  box-sizing: border-box;
-  vertical-align: top;
-  border: 1px solid #fff;
-  text-align: center;
   color: #fff;
-  position: relative;
-  background-color: #c24747;
   opacity: 0.7;
   transition: opacity 0.3s ease-in-out;
+  box-shadow: 0 0 0 1px #fff;
 }
+
 .wi {
   color: white;
 }
 
-.line h3,
-.line p {
-  padding-top: 10px; 
-  z-index: 1;
+.line {
+  text-align: center;
+}
+
+.line h3 {
+  padding-top: 50px;
 }
 
 .line .lisbon {
@@ -117,12 +114,7 @@ li {
   text-align: center;
 }
 
-.line {
-  text-align: center;
-}
-
 .line h3 {
-  margin: 0;
   font-size: 24px;
 }
 
